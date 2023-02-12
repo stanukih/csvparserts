@@ -1,0 +1,15 @@
+{
+  "name": "csvparserts",
+  "version": "1.0.0",
+  "description": "Parser csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "stanukih",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
+}
