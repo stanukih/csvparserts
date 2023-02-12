@@ -40,7 +40,6 @@ interface IreturnCsvData{
 }
 
 type allOption=IoptionFunctionSplitDataNoneEscape|IoptionFunctionSplitDataWithEscapeQuotes|IoptionFunctionSplitDataWithEscapeSymbol
-//type fileOrStrings=File|string[]
 
 export{
     IoptionFunctionSplitDataNoneEscape,
@@ -50,6 +49,5 @@ export{
     IloadCsv,
     IreturnCsv,
     IreturnCsvData,
-    allOption,
-    //fileOrStrings
+    allOption
 }

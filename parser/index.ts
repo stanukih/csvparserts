@@ -39,10 +39,14 @@ function splitDataByQuotes(dataSplit:string, option:IoptionFunctionSplitDataWith
         if (i % 2 === 0) {
             let dataSplitDelimiter = dataSplitQuotes[i].split(option.delimiter)
             for (let j = 0; j < dataSplitDelimiter.length; j++) {
-                dataOutput.push(dataSplitDelimiter[j])
-            
+                if (dataSplitDelimiter[j] != "") {
+                    dataOutput.push(dataSplitDelimiter[j])
+                }
         }
-    }    
+    }
+    else {
+        dataOutput.push(dataSplitQuotes[i])
+    }
 }
     return dataOutput
 }
