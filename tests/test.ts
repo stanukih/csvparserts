@@ -1,4 +1,4 @@
-import { processingCsvByLine,returnCsvByLine } from "../parser"
+import { processingCsvByLine,returnCsvByLine } from "../parser/index"
 let a=returnCsvByLine({    
     dataLoad:"/home/stas/Загрузки/12.csv",
     optionParse:{
